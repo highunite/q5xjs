@@ -1,4 +1,4 @@
-function Q5(scope){
+export default function Q5(scope){
   "use strict";
   return new graphics(scope);
   function graphics(scope){let $ = (scope == "global" ? window : this);
